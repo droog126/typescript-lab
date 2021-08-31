@@ -1,5 +1,6 @@
 
-const stroeName = `${Math.random()*100}`
+const id = Math.random() * 100;
+const stroeName = `${Math.ceil(id)}`
 const storeUrl ="https://github.com/droog126/typescript-lab.git"
 await $`git init`
 await $`git add .`
